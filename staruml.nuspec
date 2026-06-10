@@ -2,11 +2,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>staruml</id>
-    <version>6.2.2</version>
+    <version>7.1.0</version>
     <title>StarUML</title>
     <authors>MKLab</authors>
     <owners>awatchanaman</owners>
-    <licenseUrl>http://staruml.io/buy</licenseUrl>
+    <licenseUrl>https://staruml.io/legals/license/</licenseUrl>
     <projectUrl>https://staruml.io/</projectUrl>
     <iconUrl>https://staruml.io/image/staruml_logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -18,12 +18,12 @@
 StarUML is a commercial software, although there is no time limit for evaluation, you should buy licenses [here](http://staruml.io/buy).</description>
     <summary>a sophisticated software modeler</summary>
     <releaseNotes>[Release Notes](http://staruml.io/download)</releaseNotes>
-    <copyright>2014-2024 MKLab</copyright>
+    <copyright>2014-2026 MKLab</copyright>
     <tags>staruml uml modeler erd</tags>
-    <projectSourceUrl>http://staruml.io/faq</projectSourceUrl>
-    <packageSourceUrl>https://github.com/awatchanaman/StarUML-6.2.2</packageSourceUrl>
+    <projectSourceUrl>https://staruml.io/help</projectSourceUrl>
+    <packageSourceUrl>https://github.com/awatchanaman/StarUML</packageSourceUrl>
     <docsUrl>https://docs.staruml.io/</docsUrl>
-    <mailingListUrl>https://groups.google.com/forum/#!forum/staruml</mailingListUrl>
-    <bugTrackerUrl>http://staruml.uservoice.com/forums/245359-feature-request</bugTrackerUrl>
+    <mailingListUrl>https://groups.google.com/g/staruml</mailingListUrl>
+    <bugTrackerUrl>https://groups.google.com/g/staruml</bugTrackerUrl>
   </metadata>
 </package>

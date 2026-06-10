@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://staruml.io/api/download/releases-v6/StarUML%20Setup%206.2.2.exe'
+$url        = 'https://staruml.io/api/download/releases-v7/StarUML%20Setup%207.1.0.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -8,7 +8,7 @@ $packageArgs = @{
   fileType      = 'exe'
   url           = $url
   softwareName  = 'staruml'
-  checksum      = '22708C65298371C2DCAF84CA19616116A9AC0543DA0F7ECBD3E7425E7B731369'
+  checksum      = '65A2CE954AB576092F89A248EFC8191AC0E2038FDE7EE317CACBFC50FC38E031'
   checksumType  = 'sha256'
   silentArgs='/S'
   validExitCodes= @(0)
